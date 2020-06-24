@@ -3,46 +3,117 @@ nav {
     background-repeat: no-repeat;
 }
 
+section div {
+    text-align: center;
+
+}
+
+h1 h2 h3 h4 h5 {
+    font-family: 'Oswald', sans-serif;  
+}
+
 header {
     background-image: url(../img/bg_hero.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 46.063rem;
     padding: 3.75rem 0 50rem 0;
 }
 
+.titulos {
+    font-weight: 25px;
+    font-family: 'Oswald', sans-serif;  
+}
+
 .first-section {
     display: flex;
-    top: 845px;
+    margin-top: 845px;
     align-items: center;
     justify-content: space-around;
     }
 
-#texto1 {
-    top: 475px;
-    height: 107px;
+#sobremi {
+    font-weight: 25px;
+    font-family: 'Open Sans Semibold';
+    font-size: 25px;
     text-align: center;
-    font: Light 16px/19px Oswald;
-    color: #FFFFFF;  
+    width: 968px;
+    }
+
+#parrafos {
+
+    font-weight: 16px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: center;
+
+    }
+      
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 10%;               
+    background-color:black;
+    height: 2px;
+    }
+
+hr.new1 {
+    border: 0 solid white;
+    height: 2px;
+    background-color:white;
+    }
+
+.iconos {
+    width: 24px !important;
+    height: 24px !important;
+}   
+
+h3 {
+    font-weight: 25px;
+    font-family: 'Oswald', sans-serif;  
 }
 
-#texto2 {
-    top: 475px;
-    height: 107px;
-    text-align: center;
-    font: Light 16px/19px Oswald;
-    color: #FFFFFF;  
+
+#mistrabajos {
+        background-color: #660066;
 }
 
-a {
+agnos {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+
+}
+
+footer {
+    height: 221pt;
+    background-color:  #660066;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
   
-    font-family: 'Oswald', sans-serif;
-    color: #fffff
-}
-
-.textomedio {
-    font-family: 'GFS Neohellenic', sans-serif;
-}
-
-
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: white;
+    text-align: center;
+  }
