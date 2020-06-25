@@ -13,7 +13,7 @@ h1 h2 h3 h4 h5 {
 }
 
 header {
-    background-image: url(../Assets/img/bg_hero.png);
+    background-image: url(../img/bg_hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
